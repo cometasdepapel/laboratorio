@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+
+
+    <body>
+        <form>
+            <h1>Create Account</h1>
+
+            <h2>Nombre</h2>
+            <input type="text" name="nombre" value="" /> <br />
+
+            <h2>Email</h2>
+            <input type="email" name="e-correo" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"/>
+                                <br /><br />
+            
+            <h2>Clave</h2>
+            <input type="password" name="password"
+            maxlength="8" />
+
+            <h2>Confirme su clave</h2>
+            <input type="password" name="cpassword"
+            maxlength="8" />
+                                <br /><br />
+
+    
+                                <button type="submit" name="enviar">ENVIAR</button>
+
+        </form>
+
+
+
+
+    </body>
+
+
+
+
+</html>
